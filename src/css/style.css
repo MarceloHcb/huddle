@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+html{
+   
+    background-color: hsl(257, 40%, 49%);
+    color:white;   
+}
+.container{  
+    background-attachment: fixed;
+    background-size: cover;   
+    display: grid;    
+    grid:"logo logo"
+        "content content"
+        "footer footer";
+        grid-template-columns: repeat(2,1fr);  
+}
+.logo{
+    grid-area: logo;
+    margin: 40px 60px;  
+}
+.logo img{
+    width:200px;
+}
+.content{    
+    display: flex;      
+    grid-area: content;
+    margin: 40px 60px;   
+}
+.content img{
+    width: 100%;    
+}
+.content a{
+    display: flex;
+    background: white;
+    color: hsl(257, 40%, 49%);
+    width: 200px;
+    padding: 13px;
+    margin-top: 15px;
+    border-radius: 50px;     
+    justify-content: center;      
+    
+}
+.content a:hover{
+    background: hsl(300, 69%, 71%);
+    color:white;
+}
+h1{   
+    font-family: "Poppins";
+    font-weight: 600;
+}
+p{
+    text-align: justify; 
+    font-family: "Open Sans";
+}
+.text-right{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   
+    margin: 50px;
+}
+footer{
+    grid-area: footer;
+    display: flex;   
+    padding: 10px;
+    justify-content: flex-end;
+    width: 95%;     
+}
+.social a {
+    border: 1px solid white;
+    border-radius: 50%;   
+    color: white;
+    padding: 10px; 
+    margin: 10px;    
+}
+.social a:hover{
+    border-color: hsl(300, 69%, 71%);;
+    color:hsl(300, 69%, 71%);
+}
+
+
+
+
