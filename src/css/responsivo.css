@@ -1,7 +1,7 @@
 @media(max-width:2000px){
     .container{
         background: url(../images/bg-desktop.svg) center center no-repeat;
-        background-size: cover;
+        background-size: cover;       
     }
 }
 @media(max-width:1000px){
