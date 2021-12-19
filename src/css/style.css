@@ -21,6 +21,9 @@ html{
 .logo img{
     width:200px;
 }
+.logo:hover{    
+     transform: scaley(1.2);
+}
 .content{    
     display: flex;      
     grid-area: content;
@@ -28,6 +31,9 @@ html{
 }
 .content img{
     width: 100%;    
+}
+.content img:hover{ 
+     transform: scale(1.05);
 }
 .content a{
     display: flex;
@@ -53,8 +59,7 @@ p{
     font-family: "Open Sans";
 }
 .text-right{
-   
-    display: flex;
+       display: flex;
     flex-direction: column;
     justify-content: space-evenly;   
     margin: 50px;
@@ -66,7 +71,7 @@ footer{
     justify-content: flex-end;
     width: 95%;     
 }
-.social a {
+.social a {    
     border: 1px solid white;
     border-radius: 50%;   
     color: white;
@@ -74,8 +79,8 @@ footer{
     margin: 10px;    
 }
 .social a:hover{
-    border-color: hsl(300, 69%, 71%);;
-    color:hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    color:hsl(300, 69%, 71%);   
 }
 
 
