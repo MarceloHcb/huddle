@@ -4,6 +4,7 @@ html{
     background-color: hsl(257, 40%, 49%);
     color:white;   
 }
+
 .container{  
     background-attachment: fixed;
     background-size: cover;   
@@ -11,8 +12,7 @@ html{
     grid:"logo logo"
         "content content"
         "footer footer";
-        grid-template-columns: repeat(2,1fr);   
-              
+        grid-template-columns: repeat(2,1fr);                 
 }
 .logo{
     grid-area: logo;
@@ -43,8 +43,7 @@ html{
     padding: 13px;
     margin-top: 15px;
     border-radius: 50px;     
-    justify-content: center;      
-    
+    justify-content: center;          
 }
 .content a:hover{
     background: hsl(300, 69%, 71%);
